@@ -7,7 +7,7 @@
   text-decoration: none;
   text-align: center;
   position: fixed;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -16,6 +16,7 @@
   max-width: 125px;
   max-height: 125px;
   margin: 15px auto;
+  margin-top: 10%;
 }
 
 #logo img {
@@ -27,11 +28,16 @@
   transition-duration: 200ms;
   opacity: 0;
   visibility: hidden;
+  color: white;
+ font-size: 20px;
+  font-weight: bold;
 }
 
 #response-text.active {
   opacity: 1;
   visibility: visible;
+  font-weight: bold;
+  color: white;
 }
 
 #response-button {
